@@ -1,6 +1,6 @@
-import React,{PureComponent,Fragment} from 'react';
+import React,{ PureComponent, Fragment } from 'react';
 
-import { Button, Container, Row, Col } from 'reactstrap';
+import { Container, Row, Col } from 'reactstrap';
 
 export default class Header extends PureComponent {
 

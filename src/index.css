@@ -5,10 +5,14 @@ body {
   background-color: #DDDDDD;
 }
 
-.heading{
-	padding: 15px 0px;
+.heading {
+	padding: 20px 0px 50px 0px;
     color: #6262ea;
     font-family: 'Kosugi', sans-serif;
     letter-spacing: 5px;
     font-weight: bold;
+}
+
+.search-input {
+	margin: auto;
 }
