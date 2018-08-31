@@ -2,7 +2,7 @@ import React,{ PureComponent, Fragment } from 'react';
 
 import PropTypes from "prop-types";
 
-import {  Form, Input, Row, Col, Container  } from 'reactstrap';
+import { Input, Row, Col, Container  } from 'reactstrap';
 
 export default class SearchInput extends PureComponent {
 
@@ -18,10 +18,9 @@ export default class SearchInput extends PureComponent {
 			<Fragment>
 				<Container>
 					<Row>
-						<Col sm={6} className="search-input">
+						<Col sm={8} className="search-input">
 								 <Input 
 									 type="text" 
-									 className="text-center " 
 									 placeholder="Searh Your Favourtie Here..."
 									 valid 
 									 onChange={this.handleChange}

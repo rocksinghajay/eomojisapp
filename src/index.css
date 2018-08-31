@@ -6,7 +6,7 @@ body {
 }
 
 .heading {
-	padding: 20px 0px 50px 0px;
+	  padding: 20px 0px 50px 0px;
     color: #6262ea;
     font-family: 'Kosugi', sans-serif;
     letter-spacing: 5px;
@@ -15,4 +15,15 @@ body {
 
 .search-input {
 	margin: auto;
+  padding-bottom: 30px;
+}
+
+.emojis-list {
+  cursor: pointer;
+  list-style: none;
+}
+
+.emojis-item {
+    border: 2px solid red;
+    padding: 10px;
 }

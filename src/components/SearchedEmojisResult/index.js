@@ -1,5 +1,7 @@
 import React, { PureComponent, Fragment } from 'react'
 
+import { Container  } from 'reactstrap';
+
 import PropTypes from 'prop-types'
 import Clipboard from "clipboard";
 
@@ -21,20 +23,24 @@ export default class SearchedEmojisResult extends PureComponent {
 	render(){
 
 		return(
-				<Fragment>
+				<Container className="text-center">
 
 				{
 					this.props.emojisData.map( data => {
 
-						<EmojisResult
+						return(
+
+							<EmojisResult
 							symbol={data.symbol}
 							key={data.title}
 							title={data.title}
 						/>
+							)
+						
 					})
 				}
 
-				</Fragment>
+				</Container>
 			)
 	}
 }
